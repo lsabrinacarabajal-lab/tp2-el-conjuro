@@ -1,0 +1,350 @@
+header {
+  padding: 16px 0;
+  border-bottom: 1px solid #1f2937;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--ink);
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--paper);
+  border: 1px solid #1f2937;
+  font-size: 14px;
+}
+
+nav a:hover {
+  border-color: var(--accent);
+}
+
+
+.intro-sobre {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 30px;
+}
+
+.intro-sobre h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-sobre p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+
+.texto-sinopsis {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 24px;
+}
+
+.texto-sinopsis p {
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.texto-sinopsis figure {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.texto-sinopsis img {
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.texto-sinopsis figcaption {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+
+.audio-section {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.audio-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.audio-section audio {
+  margin-top: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.galeria-sobre {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 24px;
+}
+
+.galeria-sobre h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.galeria-sobre figure {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.galeria-sobre img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.galeria-sobre figcaption {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+
+.intro-reparto {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 30px;
+}
+
+.intro-reparto h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-reparto p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+
+.reparto-principal {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 24px;
+}
+
+.reparto-principal h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.reparto-principal figure {
+  display: inline-block;
+}
+
+.reparto-principal img {
+  max-width: 260px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.reparto-principal figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+
+.familia-perron {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 40px;
+}
+
+.familia-perron h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+
+.grid-reparto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.grid-reparto figure {
+  width: 150px;
+  text-align: center;
+}
+
+.grid-reparto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.grid-reparto figcaption {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+
+.otros-personajes {
+  background: var(--paper);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 24px;
+}
+
+.otros-personajes h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.otros-personajes ul {
+  padding-left: 30px;
+  color: var(--muted);
+}
+
+.otros-personajes li {
+  margin-bottom: 6px;
+}
+
+.otros-personajes figure {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.otros-personajes img {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.otros-personajes figcaption {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+
+.familia-perron ul,
+.intro-sobre ul {
+  padding-left: 30px;
+}
+
+.familia-perron li,
+.intro-sobre li {
+  margin-bottom: 6px;
+}
+
+
+.error-section {
+  background: var(--paper);
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.error-section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.error-section p {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.error-section .btn-volver {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.error-section .btn-volver:hover {
+  background: #7c3aed;
+}
+
+
+.intro-sobre,
+.texto-sinopsis,
+.audio-section,
+.galeria-sobre,
+.intro-reparto,
+.reparto-principal,
+.familia-perron,
+.otros-personajes,
+.error-section {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.intro-sobre:hover,
+.texto-sinopsis:hover,
+.audio-section:hover,
+.galeria-sobre:hover,
+.intro-reparto:hover,
+.reparto-principal:hover,
+.familia-perron:hover,
+.otros-personajes:hover,
+.error-section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
